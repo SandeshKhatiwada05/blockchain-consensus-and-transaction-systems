@@ -1,45 +1,42 @@
-==============================
-Bitcoin and Cryptocurrency Technologies
-==============================
-📚 Source: Coursera.org  
-👨‍🏫 Princeton & Stanford University  
-💼 Projects based on lecture tasks from CS251 & Coursera
+# Bitcoin and Cryptocurrency Technologies – Assignments  
+**Course**: Coursera – Princeton University  
+**Instructor**: Arvind Narayanan  
+
+This repository contains solutions to assignments from the course *Bitcoin and Cryptocurrency Technologies* on Coursera.
 
 ---
+---
 
-✅ Task 1: ScroogeCoin Transaction Handler  
-------------------------------------------
-📌 Goal: Validate and process transactions in a UTXO-based cryptocurrency model.
+## ✅ Task 1: ScroogeCoin Transaction Handler
 
-🛠 Files Used:
-- Transaction.java
-- UTXO.java
-- UTXOPool.java
-- Crypto.java
-- TxHandler.java
-- MaxFeeTxHandler.java *(Bonus)*
-- TestTxHandler.java
-- TestMaxFeeTxHandler.java
+### 🧠 Goal:
+Build a transaction handler for a UTXO-based cryptocurrency system.
 
-🎯 Features:
-- Signature verification using RSA
-- UTXO tracking and double-spend prevention
-- Dynamic UTXO pool update
-- Greedy fee optimization (bonus)
+### 🔧 Key Features:
+- Verify digital signatures using RSA
+- Prevent double-spending by tracking UTXOs
+- Maintain and update the UTXO pool dynamically
+- *(Optional)* Choose transactions that maximize total fees
 
-📁 How to Compile:
+### 📁 Files Involved:
+- `Transaction.java`
+- `UTXO.java`
+- `UTXOPool.java`
+- `Crypto.java`
+- `TxHandler.java`
+- `MaxFeeTxHandler.java` *(bonus)*
+- `TestTxHandler.java`
+- `TestMaxFeeTxHandler.java`
+
+### 🛠️ How to Compile:
+```bash
 javac *.java
-
-▶️ How to Run Tests:
-java TestTxHandler  
+java TestTxHandler
 java TestMaxFeeTxHandler
-
-🧠 Concepts:
-- Digital Signatures
-- Hashing (UTXO model)
-- Greedy Algorithms (MaxFee)
-- Public Key Cryptography
+```
 
 ---
+---
 
-(📝 Task 2: Distributed Consensus – will be added below)
+## 🔜 Task 2: Coming soon
+
